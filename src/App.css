@@ -1,33 +1,242 @@
 .App {
+  background-color: #fff;
+}
+
+nav {
+  background-color: #2E3444;
+  color: white;
+  max-width: 100%;
+  height: 5.5rem;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: .1rem solid grey;
+  padding: 1rem 2rem;
+}
+
+.navMenu li {
+  display: inline-block;
+  list-style: none;
+}
+
+.logoLink {
+  background-size: cover;
+  width: 3.5rem;
+}
+
+.navMenuLink {
+  display: inline-block;
+  color: black;
+  margin: 1rem;
+  border: .2rem solid grey;
+  text-decoration: none;
+  border-radius: .5rem;
+  padding: .5rem .5rem;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navMenuLink:hover {
+  color: black;
+  border: .1rem solid black;
+  background-color: rgb(243, 219, 8);
+  cursor: pointer;
+}
+
+.navMenuLink.active {
+  background-color: aquamarine;
+  color:black;
+}
+
+/* .LoginImage {
+  width: 100%;
+  height: 50rem;
+  background-image: url(https://res.cloudinary.com/lexyfeer/image/upload/v1557961449/trono.jpg);
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.container2 {
+  margin-bottom: 2rem;
+}
+
+.mainContent {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.mainContent h2,h3 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menuContainer {
+  margin: auto;
+  display: inline-block;
+  margin: 3rem;
+  padding: .5rem;
+  flex-wrap: wrap;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.breakfastImage,
+.lunchImage {
+  width: 10rem;
+  height: 10rem;
+  background-size: cover;
+  margin: auto;
+  justify-content: space-around;
+  transition: all 0.3s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.breakfastImage:hover,
+.lunchImage:hover {
+  transform: scale(1.05);
+  border: .1rem solid red;
+  background-color: rgb(228, 228, 228);
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.list-group-item {
+  width: 20rem;
+  height: 3rem;
+  justify-content: flex-start;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-group-item:hover {
+  transform: scale(1.03);
+  border: .1rem solid blue;
+  background-color: rgb(228, 228, 228);
+  cursor: pointer;
 }
+
+.form {
+  background-color: rgba(128, 128, 128, 0.281);
+  display: inline-table;
+  color: black;
+  text-align: center;
+}
+
+.btn {
+  background-color: #41F252;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+  border: .1rem solid black;
+  background-color: rgb(13, 201, 248);
+  cursor: pointer;
+}on: none;
+  color: #EF0E0E;
+}
+
+.navMenuLink {
+  display: inline-block;
+  margin: 1rem;
+  border: .2rem solid grey;
+  text-decoration: none;
+  border-radius: .5rem;
+  padding: .5rem .5rem;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navMenuLink:hover {
+  border: .1rem solid black;
+  background-color: rgb(228, 228, 228);
+  cursor: pointer;
+}
+
+.navMenuLink.active {
+  background-color: aquamarine;
+  color:black;
+}
+
+.LoginImage {
+  width: 100%;
+  height: 50rem;
+  background-image: url(https://res.cloudinary.com/lexyfeer/image/upload/v1557961449/trono.jpg);
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+.container2 {
+  margin-bottom: 2rem;
+}
+
+.mainContent {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.mainContent h2,h3 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menuContainer {
+  margin: auto;
+  display: inline-block;
+  margin: 3rem;
+  padding: .5rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.breakfastImage,
+.lunchImage {
+  width: 10rem;
+  height: 10rem;
+  background-size: cover;
+  margin: auto;
+  justify-content: space-around;
+  transition: all 0.3s ease-in-out;
+}
+
+.breakfastImage:hover,
+.lunchImage:hover {
+  transform: scale(1.05);
+  border: .1rem solid red;
+  background-color: rgb(228, 228, 228);
+  cursor: pointer;
+}
+
+.list-group-item {
+  width: 20rem;
+  height: 3rem;
+  justify-content: flex-start;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+  transform: scale(1.03);
+  border: .1rem solid blue;
+  background-color: rgb(228, 228, 228);
+  cursor: pointer;
+}
+
+.form {
+  background-color: rgba(128, 128, 128, 0.281);
+  display: inline-table;
+  color: black;
+  text-align: center;
+}
+
+.btn {
+  background-color: #41F252;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+  border: .1rem solid black;
+  background-color: rgb(13, 201, 248);
+  cursor: pointer;
+} */
