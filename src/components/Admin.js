@@ -1,6 +1,7 @@
 import React from 'react';
+// import firebase from '../firebase/firebase';
 
-const Admin = (props) => (
+const AdminDB = (props) => (
     <div className="mainContent">
         <div className="container">
             <h2>{props.title}</h2>
@@ -9,4 +10,4 @@ const Admin = (props) => (
     </div>
 );
 
-export default Admin;
+export default AdminDB;

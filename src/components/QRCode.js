@@ -1,7 +1,5 @@
-
-
-import React, { Component } from 'react'
-import QrReader from 'react-qr-scanner'
+import React, { Component } from 'react';
+import QrReader from 'react-qr-scanner';
  
 class QRCode extends Component {
   constructor(props){
@@ -41,7 +39,4 @@ class QRCode extends Component {
   }
 }
 
-export default QRCode;
-
-
- 
+export default QRCode; 

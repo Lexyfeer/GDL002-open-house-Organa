@@ -14,5 +14,4 @@ export default class Date extends React.Component {
         );
     }
 }
-
  
