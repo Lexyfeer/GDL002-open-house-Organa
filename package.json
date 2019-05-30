@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Lexyfeer.github.io/GDL002-open-house-Organa",
   "dependencies": {
+    "firestore": "^1.1.6",
     "gh-pages": "^2.0.1",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.25",
