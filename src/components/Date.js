@@ -1,10 +1,10 @@
-import React from 'react';
+import {React, Component} from 'react';
 import moment from 'moment';
 
 
 
 
-export default class Date extends React.Component {
+export default class Date extends Component {
     render() {
         return (
             <h5>

@@ -1,7 +1,8 @@
 import React from 'react';
 import QRCode from './QRCode';
+// import firebase from '../firebase/firebase';
 
-const Students = (props) => (
+const StudentsDB = (props) => (
     <div className="mainContent">
         <div className="container">
             <h2>{props.title}</h2>
@@ -14,5 +15,5 @@ const Students = (props) => (
     </div>
 );
 
-export default Students;
+export default StudentsDB;
 
