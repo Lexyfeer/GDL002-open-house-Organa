@@ -5,6 +5,7 @@ import 'firebase/firebase-firestore';
 
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
+
 firebase.initializeApp ({
     apiKey: "AIzaSyAC3UgTIuxUjvcUA79P97hfmbB-VUTDTi0",
     authDomain: "controlasistenciaorgana.firebaseapp.com",
