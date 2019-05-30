@@ -5,13 +5,13 @@ import * as firebase from 'firebase';
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
 var firebaseConfig = {
-    apiKey: "AIzaSyAC3UgTIuxUjvcUA79P97hfmbB-VUTDTi0",
-    authDomain: "controlasistenciaorgana.firebaseapp.com",
-    databaseURL: "https://controlasistenciaorgana.firebaseio.com",
-    projectId: "controlasistenciaorgana",
-    storageBucket: "controlasistenciaorgana.appspot.com",
-    messagingSenderId: "1025261164858",
-    appId: "1:1025261164858:web:30cb65062cdca2de"
-  };
+  apiKey: "AIzaSyBVwMSxoh4jwZDa_GKoPpeLNTltVpIE3lA",
+  authDomain: "organa-1020.firebaseapp.com",
+  databaseURL: "https://organa-1020.firebaseio.com",
+  projectId: "organa-1020",
+  storageBucket: "organa-1020.appspot.com",
+  messagingSenderId: "893591829196",
+  appId: "1:893591829196:web:faa21b24f9907250"
+};
 firebase.initializeApp(firebaseConfig);
 export default firebase;
