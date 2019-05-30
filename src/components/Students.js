@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import QRCode from './QRCode';
-// import firebase from '../firebase/firebase';
 
-const StudentsDB = (props) => (
+
+class StudentsDB extends Component  {
+    constructor () {
+      super();
+      this.state = {
+        attendance:[],
+    }}
+
+    render() {
+        const props = this.props;
+        return(
+    
     <div className="mainContent">
         <div className="container">
             <h2>{props.title}</h2>
@@ -13,7 +23,9 @@ const StudentsDB = (props) => (
             </div>
         </div>
     </div>
-);
+        );
+    }
+}
 
 export default StudentsDB;
 
