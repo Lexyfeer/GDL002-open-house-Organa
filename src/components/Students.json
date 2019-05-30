@@ -1,43 +1,47 @@
-
 [
     {
-    id: "0lQ6jtPHotRP8WLn3pKaxtdLgjQ2",
-    github: "",
-    locale: "es-MX",
-    name: "Jessica Gatica",
-    signupCohort: "gdl-2018-07-pre-core-pw-2018-2",
-    timezone: "America/Mexico_City",
-    role: "student"
+    "id": "0lQ6jtPHotRP8WLn3pKaxtdLgjQ2",
+    "github": "",
+    "locale": "es-MX",
+    "name": "Jessica Gatica",
+    "signupCohort": "gdl-2018-07-pre-core-pw-2018-2",
+    "timezone": "America/Mexico_City",
+    "role": "student",
+    "codeQR": "https://res.cloudinary.com/lexyfeer/image/upload/v1559186321/Jessica_Gatica.svg"
     },
     {
-    id: "4JJe937OWSTneg3I8ugQC5Zoe2K3",
-    github: "",
-    linkedin: "samantha-penilla",
-    locale: "es-ES",
-    name: "Samantha Penilla",
-    signupCohort: "test",
-    timezone: "America/Lima",
-    role: "admin"
+    "id": "4JJe937OWSTneg3I8ugQC5Zoe2K3",
+    "github": "",
+    "linkedin": "samantha-penilla",
+    "locale": "es-ES",
+    "name": "Samantha Penilla",
+    "signupCohort": "test",
+    "timezone": "America/Lima",
+    "role": "admin",
+    "codeQR": "https://res.cloudinary.com/lexyfeer/image/upload/v1559186321/Samantha_Penilla.svg"
     },
     {
-    id: "4QlHaW7gefblQRERR4MXroKszfh1",
-    github: "",
-    name: "Yolanda Ribas",
-    role: "student"
+    "id": "4QlHaW7gefblQRERR4MXroKszfh1",
+    "github": "",
+    "name": "Yolanda Ribas",
+    "role": "student",
+    "codeQR": "https://res.cloudinary.com/lexyfeer/image/upload/v1559186322/Yolanda_Ribas.svg"
     },
     {
-    id: "6wGQdZry2tctfn4h6eDRH7o5bCG3",
-    github: "",
-    locale: "es-MX",
-    name: "Ana Rocio Chavoya",
-    signupCohort: "gdl-2018-07-pre-core-pw-2018-2",
-    timezone: "America/Mexico_City",
-    role: "student"
+    "id": "6wGQdZry2tctfn4h6eDRH7o5bCG3",
+    "github": "",
+    "locale": "es-MX",
+    "name": "Ana Rocio Chavoya",
+    "signupCohort": "gdl-2018-07-pre-core-pw-2018-2",
+    "timezone": "America/Mexico_City",
+    "role": "student",
+    "codeQR": "https://res.cloudinary.com/lexyfeer/image/upload/v1559186321/Ana_Rocio_Chavoya.svg"
     },
     {
-    id: "7GTGHOGd1rO7PHYmDo8xFcr8Ing2",
-    github: "",
-    name: "Sandra Leticia Cuevas Torres",
-    role: "student"
+    "id": "7GTGHOGd1rO7PHYmDo8xFcr8Ing2",
+    "github": "",
+    "name": "Sandra Leticia Cuevas Torres",
+    "role": "student",
+    "codeQR": "https://res.cloudinary.com/lexyfeer/image/upload/v1559186321/Sandra_Leticia_Cuevas_Torres.svg"
     }
     ]
