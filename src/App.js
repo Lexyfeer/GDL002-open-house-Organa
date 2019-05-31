@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import StudentsDB from './components/Students';
 import AdminDB from './components/Admin';
+import Students from './components/Students';
 
 import './App.css';
 
@@ -15,6 +16,8 @@ function App() {
         <Route exact path="/Admin" render={ () => <AdminDB title="Control de asistencias" />} />
       </div>
     </BrowserRouter>
+    
+
 
   );
 }
