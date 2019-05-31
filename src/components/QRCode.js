@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import QrReader from 'react-qr-scanner';
-import db from '../firebase/firebase';
-import moment from 'moment';
+
+import React, { Component } from 'react'
+import QrReader from 'react-qr-scanner'
 
  
 class QRCode extends Component {
@@ -41,13 +40,13 @@ class QRCode extends Component {
   }
   render(){
     const previewStyle = {
-      height: 240,
       width: 320,
     }
  
     return(
-      <div>
-        <QrReader
+      <div className= "video"> 
+        <QrReader 
+          className= "canvas"
           delay={this.state.delay}
           style={previewStyle}
           onError={this.handleError}
@@ -59,5 +58,5 @@ class QRCode extends Component {
   }
 }
 
+export default QRCode;
 
-export default QRCode; 
