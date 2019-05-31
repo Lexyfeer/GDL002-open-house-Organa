@@ -1,6 +1,7 @@
 
-import React, { Component } from 'react'
-import QrReader from 'react-qr-scanner'
+import React, { Component } from 'react';
+import QrReader from 'react-qr-scanner';
+import moment from 'moment';
 
  
 class QRCode extends Component {
@@ -19,18 +20,18 @@ class QRCode extends Component {
       result: data,
     });
 
-    db.collection("organa-1020").doc("Attendance").set({
-      name: data,
-      date:moment().format('LLLL'),
+    // db.collection("organa-1020").doc("Attendance").set({
+    //   name: data,
+    //   date:moment().format('LLLL'),
 
-    })
-    .then(function() {
-        console.log("Document successfully written!");
+    // })
+    // .then(function() {
+    //     console.log("Document successfully written!");
 
-    })
-    .catch(function(error) {
-        console.error("Error writing document: ", error);
-    });
+    // })
+    // .catch(function(error) {
+    //     console.error("Error writing document: ", error);
+    // });
   
   
   };
