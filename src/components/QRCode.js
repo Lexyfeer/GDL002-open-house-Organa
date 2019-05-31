@@ -1,21 +1,40 @@
+
 import React, { Component } from 'react'
 import QrReader from 'react-qr-scanner'
+
  
 class QRCode extends Component {
   constructor(props){
-    super(props)
+    super(props);
     this.state = {
       delay: 100,
       result: 'No result',
-    }
+      date:moment().format('LLLL'),
+    };
  
     this.handleScan = this.handleScan.bind(this)
   }
   handleScan(data){
     this.setState({
       result: data,
+    });
+
+    db.collection("organa-1020").doc("Attendance").set({
+      name: data,
+      date:moment().format('LLLL'),
+
     })
-  }
+    .then(function() {
+        console.log("Document successfully written!");
+
+    })
+    .catch(function(error) {
+        console.error("Error writing document: ", error);
+    });
+  
+  
+  };
+
   handleError(err){
     console.error(err)
   }
@@ -40,3 +59,4 @@ class QRCode extends Component {
 }
 
 export default QRCode;
+
